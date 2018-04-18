@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="img/png/favicon.png" />
+	
+	<script type="text/javascript" src="//use.typekit.net/gzw7npd.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+ 	
+ 	
+	<link rel="stylesheet" type="text/css" href="css/LFA.css">
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	
+	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.anystretch.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ba-throttle-debounce.min.js"></script>
+	
+	<script src="js/soundmanager2-nodebug-jsmin.js"></script>
+	
+	<!-- TODO: Figure out which script to use -->
+	<!-- 
+	<script src="js/jquery.touchSwipe.min.js"></script>
+	 -->
+	<script src="js/jquery.mobile.custom.js"></script>
+	 
+	<!-- NOTE: LFA-data must be the first LFA script included -->
+	<script src="js/LFA-data.js"></script>
+	<script src="js/LFA-audio.js"></script>
+	<script src="js/LFA-ui.js"></script>
+	<script src="js/LFA.js"></script>
+	
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-41825934-1', 'letters-from-abroad.com');
+	  ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<div id="LFA-background"></div>
+	<div id="LFA-player"></div>
+ 
+	<div id="song-versions-container">
+		<div id="LFA-toolbar"></div>
+		
+		<div class="left-spacer hide-on-mobile"></div>
+		<div id="vertical-container">
+			<div id="vertical-background-bar"></div>
+			<!-- Track info boxes will be filled here at runtime -->
+		</div>		
+	</div>
+</body>
+
+</html>
